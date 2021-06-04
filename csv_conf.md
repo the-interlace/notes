@@ -54,7 +54,7 @@ The collaboratively edited slides from this session are available [here](https:/
 
 ## conclusions
 
-Open data collaboratives benefit everyone, even larger institutions that have the resources to steward big datasets, by raising the standards of data across the board and allowing for cumulative and incremental work. However, while high-quality free, open and accessible tooling exists to collaborate on code, text and flatfile data, the same infrastructure does not exist for datasets.
+Open data collaboratives benefit everyone, even larger institutions that have the resources to steward big datasets, by raising the standards of data across the board and allowing for cumulative and incremental work. However, while high-quality free, open and accessible tooling exists to collaborate on code, text and flatfile data, the same infrastructure does not exist for larger datasets, and data-processing pipelines.
 
 In creating infrastructure to make data more accessible, there's a place for high-quality domain specific tools (some of which, like Synapse, are already widely used), as well as more general tools that enable pooling, merging and transformation of generic datasets. The GitHub model is extremely popular and flexible throughout the community, in part due to being a tool that is always intended to be used collaboratively.
 
