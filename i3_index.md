@@ -35,9 +35,10 @@ One easy answer for handling annotation is to use the versioned git file (which 
 1. First-pass wizard tool that scrapes metadata from submitted Dataverse and Zenodo URLs
 2. queriable SQLite endpoint + corresponding git flat data repository
 3. CLI / bulk submission tools to populate repository
-4. Integrating more complex submission patterns (entity reconciliation, schema diagrams) as an optional step
-5. Development of metrics (data-citations + linkages) based on index
-6. Development of front end browser/search based on metrics (these 2 could happen in parallel)
+4. Development of entity reconciliation API (could prioritise this over bulk submission, depending)
+5. Integrating more complex submission patterns (entity reconciliation, schema diagrams) as an optional step
+6. Development of metrics (data-citations + linkages) based on index
+7. Development of front end browser/search based on metrics (these 2 could happen in parallel)
 
 ## Loose Ends
 
