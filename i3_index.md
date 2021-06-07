@@ -16,6 +16,17 @@ A Github repository for the project is available [here](https://github.com/Innov
 
 Datasets are submitted through a structured form. Any submission should be acceptable, but it should be made *as convenient as possible to submit high-quality data*. Where possible, it's key to minimise requiring someone to replicate information already available at the source -> e.g. for Dataverse or Zenodo URLs, most citation information can be requested and the form pre-populated, with the option to edit or refine information before submitting.
 
+Each submission starts with pasting a URL (or explicitly stating that there is no URL to paste). Proposed flow for url/metadata requests below (w/ potential to add other commonly-used data locations to URLs specifically sought out).
+
+<img width="800" alt="processing URLs" src="https://user-images.githubusercontent.com/16444898/121041499-b9c51200-c7aa-11eb-93a4-fa891d9fd76c.png">
+
+### Metadata schema for requests
+
+Depending on the kind of source accessed, either an extended or reduced metadata schema is populated from the source. Some of these fields (e.g. files+filetypes) might be hidden by default to prevent too much information in one place but can be expanded + edited if the submitter would like.
+
+<img width="800" alt="scraped metadata schema" alt="image" src="https://user-images.githubusercontent.com/16444898/121041891-1294aa80-c7ab-11eb-8b4f-1f4cf3159fd5.png">
+
+
 ### Conflicts and Edits
 
 The data structure should take into account the possibility for multiple conflicting assertions about a dataset. When submitting a unique URL that matches an existing entry in the database, the contents of that entry should be displayed, with the option to add to, or edit, the information, or submit an entirely new record (accounting for the possibility of multiple datasets housed on a single webpage). Entries made in this way will be timestamped + tagged with the provenance of the data (e.g. human- or machine-generated).
