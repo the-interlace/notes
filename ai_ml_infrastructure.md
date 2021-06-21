@@ -1,10 +1,20 @@
 # AI + ML Infrastructure Layers
 
-## OpenAI
+Background: 
+* Model Hubs ([Tensorflow](https://www.tensorflow.org/hub), [Huggingface](https://huggingface.co/docs))
+* Open clouds: [Colab](https://colab.research.google.com/)
+
+## See also
+Part of an _AI + ML_ layer, along with _benchmarks_, _papers with code/data_, and more.
+
+
+## Participants
+
+### OpenAI
 OpenAI had a dream of contributing to an open infra layer early on, but later has been more closed, to minimize public surprise and future shock.
 It is unclear if this approach succeeded in helping society // if it successfully kept shock-materials from being incorporated and weaponized by the most exploitative adversaries.
 
-## AI Infrastructure Alliances
+### AI Infrastructure Alliances
 The [AI Infrastructure Alliance](https://ai-infrastructure.org/), founded in 2020:
 
 1) Establish a canonical stack for AI + ML operations 
