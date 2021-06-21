@@ -8,7 +8,7 @@ Background:
 Part of an _AI + ML_ layer, along with _benchmarks_, _papers with code/data_, and more.
 
 
-## Participants
+## Components
 
 ### OpenAI
 OpenAI had a dream of contributing to an open infra layer early on, but later has been more closed, to minimize public surprise and future shock.
