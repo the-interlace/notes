@@ -1,6 +1,8 @@
-# AI + ML Infrastructure Layer
+# AI + ML Infrastructure Layers
 
 ## OpenAI
+Began with this concept, but quickly started closing off access to results, to minimize public surprise and future shock.
+Unclear if this worked, or if it successfully kept shock-materials from being incorporated and weaponized by the most exploitative adversaries.
 
 ## AI Infrastructure Alliances
 The [AI Infrastructure Alliance](https://ai-infrastructure.org/), founded in 2020:
