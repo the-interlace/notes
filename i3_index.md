@@ -1,4 +1,10 @@
-# I3 Data Index Outline and Plan
+# I3 Data Index 
+
+_Background_: The I3 Innovation Data Index is intended to be a catalog of essential datasets about human innovation.  This includes data on patents + scholarly publications + new products or organizations, derivatives of those datasets, and economic + regional analytic datasets exploring the implications for the development and dissemination of ideas over time.
+
+This began life as a spreadsheet, with an eye towards improving metadata and redundant publicly-accessible hosting of large datasets.
+
+# Outline and Plan
 
 A Github repository for the project is available [here](https://github.com/Innovation-Information-Initiative/i3-data-submission-wizard). Ongoing design documentation is located [here](https://www.figma.com/file/eOsZ0x1InqozLaCuKtxOXj/I3-Innovation-Data-Portal?node-id=0%3A1)
 
