@@ -20,7 +20,7 @@ How do we currently encounter recipes online?
 
 * recipe blogs, typically maintained by 1 or 2 people, that span a gradient of size, structure and context
 	* at one end you have mega-blogs like [Maangchi](https://www.maangchi.com/) and [The Woks of Life](https://thewoksoflife.com/), which are highly structured
-	* at the other, 
+	* at the other, small websites written in HTML, maybe not even using a CMS
 * recipe websites stewarded by larger single entities
 	* newspaper recipe archives like The New York Times, Guardian, BBC
 	* web-oriented 'food media' sites like The Spruce Eats and BonAppetit
