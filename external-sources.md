@@ -13,11 +13,19 @@ To evaluate the sources to optimise for, I made a count of dataset sources curre
 * university library 4
 * dedicated platform (e.g. Lens, PatentsView) 8
 
+<img width="574" alt="Screenshot 2021-06-28 at 13 30 05" src="https://user-images.githubusercontent.com/16444898/123645236-12258780-d81e-11eb-9b35-add5e4537cd1.png">
+
+### Standardised Citation Metadata
+
 Out of these sources, Dataverse and Zenodo, and almost all university libraries, mint a DOI and associated citation metadata which is available through the URL -- either via the APIs, or through citation-extraction tools such as Zotero's [translation server](https://github.com/zotero/translation-server).
+
+### Metadata APIs
 
 Separately, Dataverse and Zenodo also run their own APIs. The structures of the responses are more specific to each platform, though they contain rich information worth extracting, such as details of dataset schemas and filetypes. Without an immediate space constraint, it might be best to simply extract all of this available information into a table, rather than seeking to change the source structure too much, with the potential for adding to the schema later on.
 
 BigQuery datasets are not legible to Zotero's translation server (a query just cites 'Google Cloud Platform' as a webpage), but the platform has a fairly rich [metadata API](https://cloud.google.com/bigquery/docs/dataset-metadata) which can be used to extract most of the information required.
+
+### Platforms + Personal websites
 
 Dedicated platforms are a bit trickier, as they tend not to behave like single resource, requiring manual information entry in most cases. While these comprise a large proportion of the resources in the sheet, however, I believe this might not be representative of the wider landscape: due to their size common usage, they're more likely to be reported in a sheet like this.
 
