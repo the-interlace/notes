@@ -29,4 +29,13 @@ BigQuery datasets are not legible to Zotero's translation server (a query just c
 
 Dedicated platforms are a bit trickier, as they tend not to behave like single resource, requiring manual information entry in most cases. While these comprise a large proportion of the resources in the sheet, however, I believe this might not be representative of the wider landscape: due to their size common usage, they're more likely to be reported in a sheet like this.
 
-Personal websites present the biggest issue, with services like the translation server extracting potentially misleading, and with multiple resources hosted on the same URL. These datasets also dominate the list. This problem won't be solved overnight, but it's a good idea to flag often-used datasets that get accessed in this way -- potential to find a better place for them. Potential future solutions could also involve some generic web scraping to get basic information.
+Personal websites present the biggest issue, with services like the translation server extracting potentially misleading, and with multiple resources hosted on the same URL. These datasets also dominate the list. This problem won't be solved overnight, but it's a good idea to flag often-used datasets that get accessed in this way -- potential to find a better place for them. Potential future solutions could also involve some generic web scraping to get basic information. Zotero also lists some [scraping tools](https://www.zotero.org/support/dev/translators/framework) alongside the translation server that would be a good starting point.
+
+## Workflow Description
+
+The current plan is to cascade metadata retrieval in a series of requests, prioritising the information with the most predictable structure (to determine which calls to apply), to avoid e.g. reliance on URL strings to determine provenance (e.g. `relianceonscience.org` *looks* like a personal website address, but it's actually a Zenodo record that can also be reached via a URI). Zenodo's translation server returns both the PID (if one found), and the catalog storing the record, standardising the result. I'd like to try and make this as modular as possible -- especially thinking in the context of 'pipeline' blocks for collector, thinking about schema inputs/outputs at each stage.
+
+
+
+
+
