@@ -37,5 +37,6 @@ The current plan is to cascade metadata retrieval in a series of requests, prior
 
 
 
+<img width="939" alt="diagram of the proposed workflow stages after a URL is submitted" src="https://user-images.githubusercontent.com/16444898/123964553-7033a580-d9ab-11eb-9c79-f628a6cc4cdf.png">
 
 
