@@ -17,7 +17,7 @@ To evaluate the sources to optimise for, I made a count of dataset sources curre
 
 ### Standardised Citation Metadata
 
-Out of these sources, Dataverse and Zenodo, and almost all university libraries, mint a DOI and associated citation metadata which is available through the URL -- either via the APIs, or through citation-extraction tools such as Zotero's [translation server](https://github.com/zotero/translation-server).
+Out of these sources, Dataverse and Zenodo, and almost all university libraries, mint a DOI and associated citation metadata which is available through the URL -- either via the APIs, or through citation-extraction tools such as Zotero's [translation server](https://github.com/zotero/translation-server). A list of the types and associated schemas captured by Zotero's translators are listed [here](https://aurimasv.github.io/z2csl/typeMap.xml) (nb -- datasets are normally interpreted as ['documents'](https://aurimasv.github.io/z2csl/typeMap.xml#map-document)).
 
 ### Metadata APIs
 
@@ -33,10 +33,14 @@ Personal websites present the biggest issue, with services like the translation 
 
 ## Workflow Description
 
-The current plan is to cascade metadata retrieval in a series of requests, prioritising the information with the most predictable structure (to determine which calls to apply), to avoid e.g. reliance on URL strings to determine provenance (e.g. `relianceonscience.org` *looks* like a personal website address, but it's actually a Zenodo record that can also be reached via a URI). Zenodo's translation server returns both the PID (if one found), and the catalog storing the record, standardising the result. I'd like to try and make this as modular as possible -- especially thinking in the context of 'pipeline' blocks for collector, thinking about schema inputs/outputs at each stage.
-
+The current plan is to cascade metadata retrieval in a series of requests, prioritising the information with the most predictable structure (to determine which calls to apply), to avoid e.g. reliance on URL strings to determine provenance (e.g. `relianceonscience.org` *looks* like a personal website address, but it's actually a Zenodo record that can also be reached via a URI). Zotero's translation server returns both the PID (if one found), and the catalog storing the record, standardising the result. I'd like to try and make this as modular as possible -- especially thinking in the context of 'pipeline' blocks for collector, thinking about schema inputs/outputs at each stage.
 
 
 <img width="939" alt="diagram of the proposed workflow stages after a URL is submitted" src="https://user-images.githubusercontent.com/16444898/123964553-7033a580-d9ab-11eb-9c79-f628a6cc4cdf.png">
+
+
+### Creating Provenance Information for Each Record
+
+As it's possible to get metadata from Zotero about [which translator was used](https://www.mediawiki.org/wiki/Citoid/Creating_Zotero_translators), another aspect to consider is creating a record of *how* the record was derived, including who submitted it to the database (if they want to give that information). The question is whether (in the instance where the record is derived through multiple APIs/human editing) to append these as a list (as the record is derived from different actors e.g. API calls, human editing), or to take the last editor as the 'author' of the record, with the order of authors coming out in the version history. (comments welcome on this).
 
 
