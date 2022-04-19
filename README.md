@@ -1,6 +1,7 @@
 # About this notes repository
 
-All interlays start as an idea:   
+An interlay starts as an idea: the need for a concordance of parts of a system, and their connections to one another and to other systems, and the need for visualize, traverse, and maintain it.
+
 Someone realizes that there are enough moving parts in a system that a simple linked network is not enough, and can get disconnected or tangled.
 So a connective tissue is formed, with its own texture, resilience, and equilibrium, and bulk properties that individual connections can anchor to or draw on.
 
@@ -15,6 +16,15 @@ For now, if you have an idea for an interlay or associated tool, or are working 
 
 # Awesome interlays
 
-* VIAF - the [Virtual International Authority File](https://en.wikipedia.org/wiki/Virtual_International_Authority_File)
-* [Wikidata](https://wikidata.org) - a consolidated global namespace for entities and properties, with detailed descriptions
+* Authority: VIAF - the [Virtual International Authority File](https://en.wikipedia.org/wiki/Virtual_International_Authority_File), [GND](https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html)
+* General knowledge: [Wikidata](https://wikidata.org) - a consolidated global namespace for entities and properties, with detailed descriptions
+* Holy texts: [concordance list](https://www.internationalstandardbible.com/C/concordance.html)
+* Awe: [Awesome lists](https://awesomelists.top/#/) (very incomplete)
+* Geography: [OSM](https://www.openstreetmap.org/#map=5/38.007/-95.844) and [featured OSM layers](https://wiki.openstreetmap.org/wiki/Featured_tile_layers), Geograph [UK](https://www.geograph.org.uk/) and [DE](https://geo-en.hlipp.de/)
+* Biology
+  * Biodiversity: [iNaturalist](https://inaturalist.org/) and the [Biodiversity databases (WP)](https://en.wikipedia.org/wiki/Category:Biodiversity_databases)
+  * Ecology: [Ecology databases (WP)](https://en.wikipedia.org/wiki/Category:Ecological_databases)
+  * Genetics: [Genetics databases (WP)](https://en.wikipedia.org/wiki/Category:Genetics_databases)
+* Space: NASA/Harvard [Astrophysics Data System](https://ui.adsabs.harvard.edu/),
+* Crowdsourcable science: [Zooniverse](https://www.zooniverse.org/),
 * ... _add yours here!_
