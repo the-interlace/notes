@@ -1,6 +1,6 @@
 # About this notes repository
 
-An interlay starts as an idea: the need for a concordance of parts of a system, and their connections to one another and to other systems, and the need for visualize, traverse, and maintain it.
+An interlay starts as an idea: the need for a concordance of parts of a system, their connections to one another and to other systems, and the society of contributors and practice that sustains it.  And the need for maintenance including work to visualize, traverse, and maintain it.
 
 Someone realizes that there are enough moving parts in a system that a simple linked network is not enough, and can get disconnected or tangled.
 So a connective tissue is formed, with its own texture, resilience, and equilibrium, and bulk properties that individual connections can anchor to or draw on.
@@ -14,8 +14,7 @@ Once we reach 100 or so documents, we will revisit migrating this to a wiki with
 
 For now, if you have an idea for an interlay or associated tool, or are working on a project that serves as one, add a new .md describing it, and link to its components, participants and associated source + interface layers.  If there are associated files that you'd like to gather here in one place, please file an issue requesting a new repository for it.
 
-# Awesome interlays
-
+# · Awesome interlays
 * Authority: VIAF - the [Virtual International Authority File](https://en.wikipedia.org/wiki/Virtual_International_Authority_File), [GND](https://www.dnb.de/DE/Professionell/Standardisierung/GND/gnd_node.html)
 * General knowledge: [Wikidata](https://wikidata.org) - a consolidated global namespace for entities and properties, with detailed descriptions
 * Holy texts: [concordance list](https://www.internationalstandardbible.com/C/concordance.html)
@@ -28,3 +27,7 @@ For now, if you have an idea for an interlay or associated tool, or are working 
 * Space: NASA/Harvard [Astrophysics Data System](https://ui.adsabs.harvard.edu/),
 * Crowdsourcable science: [Zooniverse](https://www.zooniverse.org/),
 * ... _add yours here!_
+
+# ^ Related work
+* Awesome Extitution efforts
+* Awesome Awesome chapters
