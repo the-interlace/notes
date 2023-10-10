@@ -1,6 +1,6 @@
 # I3 Data Index 
 
-_Background_: The I3 Innovation Data Index is intended to be a catalog of essential datasets about human innovation.  This includes data on patents + scholarly publications + new products or organizations, derivatives of those datasets, and economic + regional analytic datasets exploring the implications for the development and dissemination of ideas over time.
+_Background_: The I3 Innovation Data Index is an incomplete catalog of essential datasets about human innovation.  This includes data on patents + scholarly publications + new products or organizations, derivatives of those datasets, and economic + regional analytic datasets exploring the implications for the development and dissemination of ideas over time.
 
 This began life as a spreadsheet, with an eye towards improving metadata and redundant publicly-accessible hosting of large datasets.
 
@@ -61,7 +61,7 @@ One easy answer for handling annotation is to use the versioned git file (which 
 
 ### Submitting Datasets using a Submission Wizard
 
-This is a little more tricky, as currently Dataverse does not support OAuth (+ as far as I can tell from the docs, neither does Zenodo), requiring a data submitter to locate their own API key in order to post a dataset as themselves, or to have a dedicated I3 account that people may use to submit data on their behalf (e.g. through a wizard tool).
+This is more tricky, as currently Dataverse does not support OAuth (+ as far as I can tell from the docs, neither does Zenodo), requiring a data submitter to locate their own API key in order to post a dataset as themselves, or to have a dedicated I3 account that people may use to submit data on their behalf, e.g. through a wizard tool. (The latter might be confusing, and might cause issues later on with maintenance/updating datasets; so could be appropriate mainly for datasets that anyone could later update.) 
 
-This might be confusing, and having authentication to a single account might also cause issues later on with maintenance/updating datasets. I think this is a feature to shelve for now, but perhaps feature requesting OAuth to allow people to make external wizard tools.
+Shelving this feature for now, but perhaps worth requesting OAuth in DV to allow people to make external wizard tools that attribute uploads properly to ORCID or other existing entities.
 
